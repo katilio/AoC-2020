@@ -7,10 +7,10 @@ namespace AoC2020
     {
         static void Main(string[] args)
         {
-            var input = InputManager.StringArrayFromFile("day1.txt");
-            Day1 day1 = new Day1();
-            day1.Part1(input);
-            day1.Part2(input);
+            var input = InputManager.StringArrayFromFile("day2.txt");
+            Day2 day2 = new Day2();
+            day2.Part1(input);
+            //day1.Part2(input);
         }
     }
 }
