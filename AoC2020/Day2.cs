@@ -6,7 +6,7 @@ namespace AoC2020
     public class Day2
     {
         
-        public void Part1(string[] input)
+        public void BothParts(string[] input)
         {
             string[] passwords = new string[input.Length];
             int[] minimums = new int[input.Length];
