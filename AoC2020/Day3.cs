@@ -24,7 +24,6 @@ namespace AoC2020
                 i += downSlope;
             }
             
-            
             return treesHit;
         }
 
