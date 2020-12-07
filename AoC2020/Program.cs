@@ -7,9 +7,9 @@ namespace AoC2020
     {
         static void Main(string[] args)
         {
-            var input = InputManager.StringArrayFromFile("day3.txt");
-            Day5 day5 = new Day5();
-            day5.BothParts();
+            var input = InputManager.StringArrayFromFile("day6.txt");
+            Day6 day6 = new Day6();
+            day6.Part1(input);
         }
     }
 }
